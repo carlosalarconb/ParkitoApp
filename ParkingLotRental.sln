@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingLotRental.Domain", "ParkingLotRental.Domain\ParkingLotRental.Domain.csproj", "{BFE66EE2-CBE9-4137-9E4F-F215B9D0D925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingLotRental.Application", "ParkingLotRental.Application\ParkingLotRental.Application.csproj", "{232C0D5E-5AE9-47F4-8359-3B0368189561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingLotRental.Infrastructure", "ParkingLotRental.Infrastructure\ParkingLotRental.Infrastructure.csproj", "{5A3C334A-7A18-4DBA-BC31-0C55B058061F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingLotRental.Presentation", "ParkingLotRental.Presentation\ParkingLotRental.Presentation.csproj", "{33C17E19-1222-4718-B356-EF36DA640F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingLotRental.Application.UnitTests", "ParkingLotRental.Application.UnitTests\ParkingLotRental.Application.UnitTests.csproj", "{348B5EEA-9369-456D-BA19-4D7404D16652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFE66EE2-CBE9-4137-9E4F-F215B9D0D925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE66EE2-CBE9-4137-9E4F-F215B9D0D925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE66EE2-CBE9-4137-9E4F-F215B9D0D925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE66EE2-CBE9-4137-9E4F-F215B9D0D925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232C0D5E-5AE9-47F4-8359-3B0368189561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232C0D5E-5AE9-47F4-8359-3B0368189561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232C0D5E-5AE9-47F4-8359-3B0368189561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232C0D5E-5AE9-47F4-8359-3B0368189561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3C334A-7A18-4DBA-BC31-0C55B058061F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3C334A-7A18-4DBA-BC31-0C55B058061F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3C334A-7A18-4DBA-BC31-0C55B058061F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3C334A-7A18-4DBA-BC31-0C55B058061F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C17E19-1222-4718-B356-EF36DA640F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C17E19-1222-4718-B356-EF36DA640F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C17E19-1222-4718-B356-EF36DA640F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C17E19-1222-4718-B356-EF36DA640F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348B5EEA-9369-456D-BA19-4D7404D16652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348B5EEA-9369-456D-BA19-4D7404D16652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348B5EEA-9369-456D-BA19-4D7404D16652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348B5EEA-9369-456D-BA19-4D7404D16652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
